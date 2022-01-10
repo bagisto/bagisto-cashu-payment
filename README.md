@@ -12,7 +12,6 @@ Bagisto CashU Payment add-on allow customers to pay for others using CashU payme
 composer require bagisto/bagisto-cashu-payment
 ```
 
-```
 - Goto VerifyCsrfToken.php file and add following line in protected $except array (FilePath - app->Http->Middleware->VerifyCsrfToken.php)
 ```
 'cashu/callback',
