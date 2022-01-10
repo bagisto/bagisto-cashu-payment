@@ -1,0 +1,31 @@
+{
+    "name": "bagisto/bagisto-cashu-payment",
+    "description": "allow customers to pay for others using this payment gateway.",
+    "keywords": [
+        "bagisto",
+        "cashu",
+        "cashu payment"
+    ],
+    "homepage": "https://github.com/bagisto/bagisto-cashu-payment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\CashU\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\CashU\\Providers\\CashUServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
