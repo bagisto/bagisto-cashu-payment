@@ -1,6 +1,6 @@
 # Introduction
 
-Bagisto CashU extension has allow customers to pay for others using this payment gateway.
+Bagisto CashU Payment add-on allow customers to pay for others using CashU payment gateway.
 
 ## Requirements:
 
