@@ -12,9 +12,6 @@ Bagisto CashU Payment add-on allow customers to pay for others using CashU payme
 composer require bagisto/bagisto-cashu-payment
 ```
 
-- Goto config/concord.php file and add following line under 'modules'
-```php
-\Webkul\CashU\Providers\ModuleServiceProvider::class
 ```
 - Goto VerifyCsrfToken.php file and add following line in protected $except array (FilePath - app->Http->Middleware->VerifyCsrfToken.php)
 ```
